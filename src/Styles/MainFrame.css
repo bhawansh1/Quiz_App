@@ -1,0 +1,32 @@
+.main-block {
+display: flex;
+height: 100vh;
+width: 100vw;
+overflow: hidden;
+}
+
+.left-block
+{
+    width: 70%;
+}
+
+.question-block
+{
+    height: 60%;
+    width: 100%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.question-nav-block
+{
+    width: 30%;
+    height: 100%;
+}
+
+.status-bar-block
+{
+    padding:1rem
+}
+
+  

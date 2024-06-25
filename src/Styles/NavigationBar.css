@@ -1,0 +1,25 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 10px;
+    height: 10%;
+  }
+  
+  .footer-button {
+    color: #fff;
+    cursor: pointer;
+    background-color: red;
+
+    transition: background-color 0.3s;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+  }
+  
+  .footer-button:hover {
+    background-color: #004599;
+  }
+  
