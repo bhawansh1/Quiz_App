@@ -61,7 +61,7 @@ const questionSlice = createSlice({
             {
                 state.answeredCount+=1
             }
-            if (state.questions[action.payload.id].marked==true)
+            if (state.questions[action.payload.id].marked===true)
             {
                 state.markedCount-=1
                 state.questions[action.payload.id].marked = false
